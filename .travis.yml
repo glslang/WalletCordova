@@ -14,6 +14,7 @@ matrix:
       install:
         - brew update > /dev/null
         - brew upgrade node
+        - brew install python
         - pip install virtualenv
       script:
         - ./prepare.sh
